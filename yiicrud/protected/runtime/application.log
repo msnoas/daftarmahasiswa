@@ -1,0 +1,104 @@
+2018/03/19 16:29:35 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gii". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yiicrud\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiicrud/index.php?r=gii
+---
+2018/03/19 16:34:35 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gii". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yiicrud\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiicrud/index.php?r=gii
+---
+2018/03/19 16:49:42 [error] [php] count(): Parameter must be an array or an object that implements Countable (C:\xampp\htdocs\yii\framework\gii\generators\model\ModelCode.php:371)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\gii\CCodeGenerator.php(162): ModelCode->prepare()
+#1 C:\xampp\htdocs\yii\framework\gii\CCodeGenerator.php(63): ModelGenerator->prepare()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ModelGenerator->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): ModelGenerator->runAction()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): ModelGenerator->runActionWithFilters()
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): ModelGenerator->run()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yiicrud\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiicrud/index.php?r=gii/model/index
+in C:\xampp\htdocs\yiicrud\index.php (13)
+2018/03/19 16:50:47 [error] [php] count(): Parameter must be an array or an object that implements Countable (C:\xampp\htdocs\yii\framework\gii\generators\model\ModelCode.php:371)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\gii\CCodeGenerator.php(162): ModelCode->prepare()
+#1 C:\xampp\htdocs\yii\framework\gii\CCodeGenerator.php(63): ModelGenerator->prepare()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ModelGenerator->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): ModelGenerator->runAction()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): ModelGenerator->runActionWithFilters()
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): ModelGenerator->run()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yiicrud\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiicrud/index.php?r=gii/model/index
+in C:\xampp\htdocs\yiicrud\index.php (13)
+2018/03/19 16:52:06 [error] [php] count(): Parameter must be an array or an object that implements Countable (C:\xampp\htdocs\yii\framework\gii\generators\model\ModelCode.php:371)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\gii\CCodeGenerator.php(162): ModelCode->prepare()
+#1 C:\xampp\htdocs\yii\framework\gii\CCodeGenerator.php(63): ModelGenerator->prepare()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ModelGenerator->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): ModelGenerator->runAction()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): ModelGenerator->runActionWithFilters()
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): ModelGenerator->run()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yiicrud\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiicrud/index.php?r=gii/model/index
+in C:\xampp\htdocs\yiicrud\index.php (13)
+2018/03/19 16:53:57 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yiicrud.yiicrud' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `yiicrud`.
+in C:\xampp\htdocs\yiicrud\index.php (13)
+2018/03/19 16:54:07 [error] [php] count(): Parameter must be an array or an object that implements Countable (C:\xampp\htdocs\yii\framework\gii\generators\model\ModelCode.php:371)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\gii\CCodeGenerator.php(162): ModelCode->prepare()
+#1 C:\xampp\htdocs\yii\framework\gii\CCodeGenerator.php(63): ModelGenerator->prepare()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ModelGenerator->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): ModelGenerator->runAction()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): ModelGenerator->runActionWithFilters()
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): ModelGenerator->run()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yiicrud\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiicrud/index.php?r=gii/model/index
+in C:\xampp\htdocs\yiicrud\index.php (13)
+2018/03/19 16:58:01 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yiicrud.costumer' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `costumer`.
+in C:\xampp\htdocs\yiicrud\index.php (13)
+2018/03/19 16:58:11 [error] [php] count(): Parameter must be an array or an object that implements Countable (C:\xampp\htdocs\yii\framework\gii\generators\model\ModelCode.php:371)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\gii\CCodeGenerator.php(162): ModelCode->prepare()
+#1 C:\xampp\htdocs\yii\framework\gii\CCodeGenerator.php(63): ModelGenerator->prepare()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ModelGenerator->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): ModelGenerator->runAction()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): ModelGenerator->runActionWithFilters()
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): ModelGenerator->run()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yiicrud\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiicrud/index.php?r=gii/model/index
+in C:\xampp\htdocs\yiicrud\index.php (13)
+2018/03/19 17:12:32 [error] [php] count(): Parameter must be an array or an object that implements Countable (C:\xampp\htdocs\yii\framework\gii\generators\model\ModelCode.php:371)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\gii\CCodeGenerator.php(162): ModelCode->prepare()
+#1 C:\xampp\htdocs\yii\framework\gii\CCodeGenerator.php(63): ModelGenerator->prepare()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ModelGenerator->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): ModelGenerator->runAction()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): ModelGenerator->runActionWithFilters()
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): ModelGenerator->run()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yiicrud\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiicrud/index.php?r=gii/model/index
+in C:\xampp\htdocs\yiicrud\index.php (13)
